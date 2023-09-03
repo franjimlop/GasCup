@@ -89,7 +89,7 @@ body {
 .titulo2 {
     font-family: f1torque, sans-serif;
     font-size: 4em !important;
-    -webkit-text-stroke: 2px blue;
+    -webkit-text-stroke: 2px red;
 }
 
 .form-control {
