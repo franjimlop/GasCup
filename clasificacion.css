@@ -173,3 +173,20 @@ td {
 .res {
     background-color: darkgreen;
 }
+
+.custom-button-volver {
+    padding: 10px 20px;
+    font-family: f1regular, sans-serif;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+    margin: 0;
+}
+
+.custom-button-volver:hover {
+    background-color: black;
+}
