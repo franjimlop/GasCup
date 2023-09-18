@@ -190,3 +190,8 @@ td {
 .custom-button-volver:hover {
     background-color: black;
 }
+
+.cambio {
+    color: blueviolet;
+    width: 10%;
+}
