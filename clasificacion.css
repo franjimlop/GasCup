@@ -195,3 +195,23 @@ td {
     color: blueviolet;
     width: 10%;
 }
+
+a {
+    text-decoration: none;
+}
+
+.sube {
+    color: greenyellow;
+}
+
+.baja {
+    color: red;
+}
+
+.baja2 {
+    color: rebeccapurple;
+}
+
+.igual {
+    color: gainsboro;
+}
