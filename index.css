@@ -170,3 +170,28 @@ a {
 a:hover {
     color: purple;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FF0000;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FF3333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FF6666;
+}
