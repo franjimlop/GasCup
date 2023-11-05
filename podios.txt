@@ -1,0 +1,139 @@
+Barein
+    Gas Cup 1:
+        - Josemom
+        - Mamba
+        - Neskym
+
+Arabia
+    Gas Cup 2:
+        - Ruben
+        - Mamba
+        - PipeSalazar
+
+Australia
+
+Azerbaiyan
+    Gas Cup 1:
+        - Dajumami
+        - Mamba
+        - Ruben
+
+Miami
+    Gas Cup 2:
+        - Ruben
+        - Mamba
+        - Neskym
+
+Imola
+    Gas Cup 1:
+        - Ruben
+        - Josemom
+        - Mamba
+
+Monaco
+
+España
+    Gas Cup 1:
+        - Banano
+        - Mamba
+        - Ruben
+    Gas Cup 2:
+        - Ruben
+        - Banano
+        - Fran
+
+Canada
+    Gas Cup 2:
+        - Banano
+        - Fran
+        - Patera
+
+Austria
+    Gas Cup 2:
+        - Ruben
+        - Banano
+        - Mamba
+
+Gran Bretaña
+    Gas Cup 1:
+        - Mamba
+        - Ruben
+        - Banano
+    Gas Cup 2:
+        - Ruben
+        - Banano
+        - Neskym
+
+Hungria
+
+Belgica
+    Gas Cup 1:
+        - Ruben
+        - Banano
+        - Xavi
+
+Paises Bajos
+    Gas Cup 2:
+        - Ruben
+        - Fran
+        - Ramoncin
+
+Italia
+
+Singapur
+
+Japon
+    Gas Cup 1:
+        - Ruben
+        - Didac
+        - Josemom
+    Gas Cup 2:
+        - Banano
+        - Neskym
+        - Ruben
+
+Qatar
+    Gas Cup 1:
+        - Ruben
+        - Josemom
+        - Mamba
+
+Texas
+    Gas Cup 1:
+        - Fran
+        - Josemom
+        - Ruben
+
+Mexico
+    Gas Cup 2:
+        - Ruben
+        - Ferrer
+        - Didac
+
+Brasil
+    Gas Cup 2:
+        - Ruben
+        - Banano
+        - Neskym
+
+Las Vegas
+
+Abu Dabi
+    Gas Cup 2:
+        - Ruben
+        - Mamba
+        - Ferrer
+
+China
+    Gas Cup 2:
+        - Banano
+        - Ruben
+        - Alpinan
+
+Francia
+
+Portugal
+    Gas Cup 1:
+        - Josemom
+        - Fran
+        - Ruben

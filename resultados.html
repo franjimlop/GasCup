@@ -39,19 +39,13 @@
             <div class="col-lg-6 mb-3">
                 <div class="form-group">
                     <div class="custom-select">
-                        <select id="circuitoSelect" onchange="mostrarTabla()">
-                            <option value="austria">Austria</option>
-                            <option value="silverstone">Gran Bretaña</option>
-                            <option value="abudhabi">Abu Dhabi</option>
-                            <option value="jeddah">Jeddah</option>
-                            <option value="mexico">Mexico</option>
-                            <option value="miami">Miami</option>
-                            <option value="paisesbajos">Países Bajos</option>
-                            <option value="espana">España</option>
-                            <option value="japon">Japón</option>
-                            <option value="china">China</option>
-                            <option value="canada">Canadá</option>
-                            <option value="brasil">Brasil</option>
+                        <select id="diaSelect" onchange="mostrarTabla()">
+                            <option value="finde1">12 noviembre</option>
+                            <option value="finde2">19 noviembre</option>
+                            <option value="finde3">26 noviembre</option>
+                            <option value="finde4">03 diciembre</option>
+                            <option value="finde5">10 diciembre</option>
+                            <option value="finde6">17 diciembre</option>
                         </select>
                     </div>
                 </div>
@@ -60,8 +54,10 @@
                 <div class="form-group">
                     <div class="custom-select">
                         <select id="sesionSelect" onchange="mostrarTabla()">
-                            <option value="qualy">Clasificación</option>
-                            <option value="race">Carrera</option>
+                            <option value="fortuna">Carrera Fortuna</option>
+                            <option value="sprint">Carrera Sprint</option>
+                            <option value="qualy">Clasificacion</option>
+                            <option value="carrera">Carrera</option>
                         </select>
                     </div>
                 </div>
@@ -69,2116 +65,2063 @@
         </div>
     </div>
 
-    <div class="container my-3 text-center" id="qualyAustria">
+    <div class="container my-3 text-center" id="fortuna1">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Tiempo</th>
+                    <th>Puntos</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="mer">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>Mamba</td>
-                    <td>1:04:132</td>
-                </tr>
-                <tr class="mcl">
-                    <td>2º</td>
-                    <td>RuSerNa</td>
-                    <td>1:04:370</td>
-                </tr>
-                <tr class="tau">
-                    <td>3º</td>
-                    <td>Thargras</td>
-                    <td>1:04:380</td>
-                </tr>
-                <tr class="haas">
-                    <td>4º</td>
-                    <td>Fran</td>
-                    <td>1:04:426</td>
-                </tr>
-                <tr class="ast">
-                    <td>5º</td>
-                    <td>Didac</td>
-                    <td>1:04:480</td>
-                </tr>
-                <tr class="tau">
-                    <td>6º</td>
-                    <td>Ferrer</td>
-                    <td>1:04:546</td>
+                    <td></td>
+                    <td>15</td>
                 </tr>
                 <tr class="rb">
-                    <td>7º</td>
-                    <td>Banano</td>
-                    <td>1:04:573</td>
-                </tr>
-                <tr class="alf">
-                    <td>8º</td>
-                    <td>Zamorano</td>
-                    <td>1:04:667</td>
-                </tr>
-                <tr class="mer">
-                    <td>9º</td>
-                    <td>Jesús</td>
-                    <td>1:04:681</td>
-                </tr>
-                <tr class="wil">
-                    <td>10º</td>
-                    <td>Neskym</td>
-                    <td>1:05:037</td>
-                </tr>
-                <tr class="alp">
-                    <td>11º</td>
-                    <td>Sxrgix</td>
-                    <td>1:05:052</td>
-                </tr>
-                <tr class="mcl">
-                    <td>12º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:05:067</td>
-                </tr>
-                <tr class="wil">
-                    <td>13º</td>
-                    <td>Xavi</td>
-                    <td>1:05:375</td>
+                    <td>2º</td>
+                    <td></td>
+                    <td>12</td>
                 </tr>
                 <tr class="fer">
-                    <td>14º</td>
-                    <td>N4VON</td>
-                    <td>1:05:535</td>
+                    <td>3º</td>
+                    <td></td>
+                    <td>10</td>
                 </tr>
-                <tr class="rb">
-                    <td>15º</td>
-                    <td>Gerard</td>
-                    <td>1:05:572</td>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>8</td>
                 </tr>
-                <tr class="ast">
-                    <td>16º</td>
-                    <td>Jose20</td>
-                    <td>1:05:865</td>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>5</td>
                 </tr>
                 <tr class="alp">
-                    <td>17º</td>
-                    <td>Doramion</td>
-                    <td>1:05:884</td>
+                    <td>7º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
                     <td>18º</td>
-                    <td>Adria</td>
-                    <td>1:06:028</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="haas">
                     <td>19º</td>
-                    <td>AMR_13_</td>
-                    <td>1:06:794</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="fer">
+                <tr class="haas">
                     <td>20º</td>
-                    <td>HectorPerleo1</td>
-                    <td>1:07:595</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="qualySilverstone">
+    <div class="container my-3 text-center" id="fortuna2">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Tiempo</th>
+                    <th>Puntos</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="tau">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>Ferrer</td>
-                    <td>1:25:823</td>
+                    <td></td>
+                    <td>15</td>
                 </tr>
                 <tr class="rb">
                     <td>2º</td>
-                    <td>Banano</td>
-                    <td>1:26:045</td>
-                </tr>
-                <tr class="mcl">
-                    <td>3º</td>
-                    <td>RuSerNa</td>
-                    <td>1:26:049</td>
-                </tr>
-                <tr class="mer">
-                    <td>4º</td>
-                    <td>Mamba</td>
-                    <td>1:26:206</td>
-                </tr>
-                <tr class="haas">
-                    <td>5º</td>
-                    <td>Fran</td>
-                    <td>1:26:214</td>
-                </tr>
-                <tr class="tau">
-                    <td>6º</td>
-                    <td>Thargras</td>
-                    <td>1:26:235</td>
-                </tr>
-                <tr class="ast">
-                    <td>7º</td>
-                    <td>Didac</td>
-                    <td>1:26:459</td>
-                </tr>
-                <tr class="mer">
-                    <td>8º</td>
-                    <td>Jesús</td>
-                    <td>1:26:571</td>
-                </tr>
-                <tr class="haas">
-                    <td>9º</td>
-                    <td>DaniSojo</td>
-                    <td>1:26:627</td>
-                </tr>
-                <tr class="ast">
-                    <td>10º</td>
-                    <td>Jose20</td>
-                    <td>1:26:805</td>
-                </tr>
-                <tr class="wil">
-                    <td>11º</td>
-                    <td>Neskym</td>
-                    <td>1:27:219</td>
-                </tr>
-                <tr class="alf">
-                    <td>12º</td>
-                    <td>Adria</td>
-                    <td>1:27:587</td>
-                </tr>
-                <tr class="alf">
-                    <td>13º</td>
-                    <td>Zamorano</td>
-                    <td>1:27:716</td>
-                </tr>
-                <tr class="mcl">
-                    <td>14º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:27:792</td>
-                </tr>
-                <tr class="wil">
-                    <td>15º</td>
-                    <td>Xavi</td>
-                    <td>1:27:881</td>
-                </tr>
-                <tr class="rb">
-                    <td>16º</td>
-                    <td>Gerard</td>
-                    <td>1:29:858</td>
-                </tr>
-                <tr class="alp">
-                    <td>17º</td>
-                    <td>Sxrgix</td>
-                    <td>1:31:097</td>
+                    <td></td>
+                    <td>12</td>
                 </tr>
                 <tr class="fer">
-                    <td>18º</td>
-                    <td>N4VON</td>
-                    <td>-:--:---</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyAbu">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="tau">
-                    <td>1º</td>
-                    <td>Ferrer</td>
-                    <td>1:22:643</td>
-                </tr>
-                <tr class="mer">
-                    <td>2º</td>
-                    <td>Mamba</td>
-                    <td>1:22:721</td>
-                </tr>
-                <tr class="mcl">
                     <td>3º</td>
-                    <td>RuSerNa</td>
-                    <td>1:22:810</td>
+                    <td></td>
+                    <td>10</td>
                 </tr>
                 <tr class="fer">
                     <td>4º</td>
-                    <td>Ramoncin</td>
-                    <td>1:22:925</td>
+                    <td></td>
+                    <td>8</td>
                 </tr>
-                <tr class="ast">
+                <tr class="mer">
                     <td>5º</td>
-                    <td>Embun</td>
-                    <td>1:22:927</td>
+                    <td></td>
+                    <td>6</td>
                 </tr>
-                <tr class="alf">
+                <tr class="mer">
                     <td>6º</td>
-                    <td>Jose</td>
-                    <td>1:23:036</td>
+                    <td></td>
+                    <td>5</td>
                 </tr>
-                <tr class="rb">
+                <tr class="alp">
                     <td>7º</td>
-                    <td>Banano</td>
-                    <td>1:23:060</td>
+                    <td></td>
+                    <td>4</td>
                 </tr>
                 <tr class="alp">
                     <td>8º</td>
-                    <td>Adri</td>
-                    <td>1:23:107</td>
-                </tr>
-                <tr class="tau">
-                    <td>9º</td>
-                    <td>Thargras</td>
-                    <td>1:23:270</td>
-                </tr>
-                <tr class="fer">
-                    <td>10º</td>
-                    <td>Neskym</td>
-                    <td>1:23:298</td>
-                </tr>
-                <tr class="haas">
-                    <td>11º</td>
-                    <td>Fran</td>
-                    <td>1:23:414</td>
-                </tr>
-                <tr class="wil">
-                    <td>12º</td>
-                    <td>DaniSojo</td>
-                    <td>1:23:495</td>
-                </tr>
-                <tr class="mer">
-                    <td>13º</td>
-                    <td>Jesus</td>
-                    <td>1:23:637</td>
-                </tr>
-                <tr class="alf">
-                    <td>14º</td>
-                    <td>Adria</td>
-                    <td>1:24:252</td>
-                </tr>
-                <tr class="ast">
-                    <td>15º</td>
-                    <td>Sxrgix</td>
-                    <td>1:24:422</td>
-                </tr>
-                <tr class="haas">
-                    <td>16º</td>
-                    <td>JavierPineda</td>
-                    <td>1:24:489</td>
-                </tr>
-                <tr class="rb">
-                    <td>17º</td>
-                    <td>Gerard</td>
-                    <td>1:25:602</td>
+                    <td></td>
+                    <td>3</td>
                 </tr>
                 <tr class="mcl">
-                    <td>18º</td>
-                    <td>PipeSalazar</td>
-                    <td>-:--:---</td>
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
                     <td>19º</td>
-                    <td>Xavi</td>
-                    <td>DSC</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyJeddah">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mer">
-                    <td>1º</td>
-                    <td>Mamba</td>
-                    <td>1:27:385</td>
-                </tr>
-                <tr class="mcl">
-                    <td>2º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:27:832</td>
-                </tr>
-                <tr class="mcl">
-                    <td>3º</td>
-                    <td>RuSerNa</td>
-                    <td>1:27:924</td>
-                </tr>
-                <tr class="tau">
-                    <td>4º</td>
-                    <td>Thargras</td>
-                    <td>1:27:950</td>
-                </tr>
-                <tr class="alp">
-                    <td>5º</td>
-                    <td>DaniSojo</td>
-                    <td>1:28:066</td>
-                </tr>
-                <tr class="wil">
-                    <td>6º</td>
-                    <td>Zamorano</td>
-                    <td>1:28:142</td>
-                </tr>
-                <tr class="alf">
-                    <td>7º</td>
-                    <td>Jose20</td>
-                    <td>1:28:143</td>
-                </tr>
-                <tr class="tau">
-                    <td>8º</td>
-                    <td>Ferrer</td>
-                    <td>1:28:147</td>
-                </tr>
-                <tr class="rb">
-                    <td>9º</td>
-                    <td>Banano</td>
-                    <td>1:28:184</td>
-                </tr>
-                <tr class="ast">
-                    <td>10º</td>
-                    <td>Embun</td>
-                    <td>1:28:194</td>
-                </tr>
-                <tr class="wil">
-                    <td>11º</td>
-                    <td>Xavi</td>
-                    <td>1:28:216</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="haas">
-                    <td>12º</td>
-                    <td>Fran</td>
-                    <td>1:28:425</td>
-                </tr>
-                <tr class="fer">
-                    <td>13º</td>
-                    <td>Neskym</td>
-                    <td>1:28:481</td>
-                </tr>
-                <tr class="mer">
-                    <td>14º</td>
-                    <td>Jesús</td>
-                    <td>1:28:567</td>
-                </tr>
-                <tr class="ast">
-                    <td>15º</td>
-                    <td>Sxrgix</td>
-                    <td>1:29:557</td>
-                </tr>
-                <tr class="alf">
-                    <td>16º</td>
-                    <td>Adria</td>
-                    <td>1:30:742</td>
-                </tr>
-                <tr class="rb">
-                    <td>17º</td>
-                    <td>Gerard</td>
-                    <td>1:31:261</td>
-                </tr>
-                <tr class="alp">
-                    <td>18º</td>
-                    <td>Adri</td>
-                    <td>1:32:034</td>
-                </tr>
-                <tr class="fer">
-                    <td>19º</td>
-                    <td>Ramoncin</td>
-                    <td>-:--:---</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyMexico">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>1:16:464</td>
-                </tr>
-                <tr class="ast">
-                    <td>2º</td>
-                    <td>Didac</td>
-                    <td>1:17:074</td>
-                </tr>
-                <tr class="mer">
-                    <td>3º</td>
-                    <td>Mamba</td>
-                    <td>1:17:113</td>
-                </tr>
-                <tr class="tau">
-                    <td>4º</td>
-                    <td>Ferrer</td>
-                    <td>1:17:118</td>
-                </tr>
-                <tr class="haas">
-                    <td>5º</td>
-                    <td>Fran</td>
-                    <td>1:17:190</td>
-                </tr>
-                <tr class="rb">
-                    <td>6º</td>
-                    <td>Ramoncin</td>
-                    <td>1:17:236</td>
-                </tr>
-                <tr class="alp">
-                    <td>7º</td>
-                    <td>DaniSojo</td>
-                    <td>1:17:432</td>
-                </tr>
-                <tr class="ast">
-                    <td>8º</td>
-                    <td>Embun</td>
-                    <td>1:17:580</td>
-                </tr>
-                <tr class="fer">
-                    <td>9º</td>
-                    <td>Neskym</td>
-                    <td>1:17:659</td>
-                </tr>
-                <tr class="tau">
-                    <td>10º</td>
-                    <td>Thargras</td>
-                    <td>1:17:761</td>
-                </tr>
-                <tr class="mer">
-                    <td>11º</td>
-                    <td>Jesús</td>
-                    <td>1:17:977</td>
-                </tr>
-                <tr class="wil">
-                    <td>12º</td>
-                    <td>Xavi</td>
-                    <td>1:18:032</td>
-                </tr>
-                <tr class="mcl">
-                    <td>13º</td>
-                    <td>DavidRomero</td>
-                    <td>1:18:054</td>
-                </tr>
-                <tr class="wil">
-                    <td>14º</td>
-                    <td>Zamorano</td>
-                    <td>1:18:222</td>
-                </tr>
-                <tr class="alf">
-                    <td>15º</td>
-                    <td>Adria</td>
-                    <td>1:18:930</td>
-                </tr>
-                <tr class="fer">
-                    <td>16º</td>
-                    <td>NicoAlvarez</td>
-                    <td>1:19:924</td>
-                </tr>
-                <tr class="rb">
-                    <td>17º</td>
-                    <td>Gerard</td>
-                    <td>1:19:990</td>
-                </tr>
-                <tr class="alp">
-                    <td>18º</td>
-                    <td>NicoM</td>
-                    <td>1:20:000</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyMiami">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="haas">
-                    <td>1º</td>
-                    <td>Fran</td>
-                    <td>1:35:523</td>
-                </tr>
-                <tr class="mcl">
-                    <td>2º</td>
-                    <td>RuSerNa</td>
-                    <td>1:35:810</td>
-                </tr>
-                <tr class="tau">
-                    <td>3º</td>
-                    <td>Thargras</td>
-                    <td>1:36:332</td>
-                </tr>
-                <tr class="mer">
-                    <td>4º</td>
-                    <td>Mamba</td>
-                    <td>1:36:372</td>
-                </tr>
-                <tr class="mcl">
-                    <td>5º</td>
-                    <td>DavidRomero</td>
-                    <td>1:36:579</td>
-                </tr>
-                <tr class="mer">
-                    <td>6º</td>
-                    <td>Jesús</td>
-                    <td>1:36:623</td>
-                </tr>
-                <tr class="fer">
-                    <td>7º</td>
-                    <td>Neskym</td>
-                    <td>1:36:892</td>
-                </tr>
-                <tr class="ast">
-                    <td>8º</td>
-                    <td>Embun</td>
-                    <td>1:36:953</td>
-                </tr>
-                <tr class="tau">
-                    <td>9º</td>
-                    <td>Ferrer</td>
-                    <td>1:37:101</td>
-                </tr>
-                <tr class="wil">
-                    <td>10º</td>
-                    <td>Zamorano</td>
-                    <td>1:37:233</td>
-                </tr>
-                <tr class="wil">
-                    <td>11º</td>
-                    <td>Xavi</td>
-                    <td>1:37:590</td>
-                </tr>
-                <tr class="ast">
-                    <td>12º</td>
-                    <td>Didac</td>
-                    <td>1:37:798</td>
-                </tr>
-                <tr class="rb">
-                    <td>13º</td>
-                    <td>Gerard</td>
-                    <td>1:38:738</td>
-                </tr>
-                <tr class="rb">
-                    <td>14º</td>
-                    <td>AMR_13_</td>
-                    <td>1:39:558</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyPaisesbajos">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>1:08:943</td>
-                </tr>
-                <tr class="rb">
-                    <td>2º</td>
-                    <td>Banano</td>
-                    <td>1:09:019</td>
-                </tr>
-                <tr class="fer">
-                    <td>3º</td>
-                    <td>Ramoncin</td>
-                    <td>1:09:264</td>
-                </tr>
-                <tr class="haas">
-                    <td>4º</td>
-                    <td>Pastorete</td>
-                    <td>1:09:281</td>
-                </tr>
-                <tr class="tau">
-                    <td>5º</td>
-                    <td>Ferrer</td>
-                    <td>1:09:326</td>
-                </tr>
-                <tr class="haas">
-                    <td>6º</td>
-                    <td>Fran</td>
-                    <td>1:09:436</td>
-                </tr>
-                <tr class="alf">
-                    <td>7º</td>
-                    <td>Jose20</td>
-                    <td>1:09:527</td>
-                </tr>
-                <tr class="ast">
-                    <td>8º</td>
-                    <td>Embun</td>
-                    <td>1:09:584</td>
-                </tr>
-                <tr class="alf">
-                    <td>9º</td>
-                    <td>Patera</td>
-                    <td>1:09:799</td>
-                </tr>
-                <tr class="fer">
-                    <td>10º</td>
-                    <td>Neskym</td>
-                    <td>1:09:960</td>
-                </tr>
-                <tr class="mcl">
-                    <td>11º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:10:415</td>
-                </tr>
-                <tr class="wil">
-                    <td>12º</td>
-                    <td>Xavi</td>
-                    <td>1:10:444</td>
-                </tr>
-                <tr class="mer">
-                    <td>13º</td>
-                    <td>Sxrgix</td>
-                    <td>1:10:693</td>
-                </tr>
-                <tr class="tau">
-                    <td>14º</td>
-                    <td>Adria</td>
-                    <td>1:10:765</td>
-                </tr>
-                <tr class="rb">
-                    <td>15º</td>
-                    <td>Gerard</td>
-                    <td>1:11:316</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyEspana">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="haas">
-                    <td>1º</td>
-                    <td>Fran</td>
-                    <td>1:11:663</td>
-                </tr>
-                <tr class="haas">
-                    <td>2º</td>
-                    <td>Pastorete</td>
-                    <td>1:11:759</td>
-                </tr>
-                <tr class="mcl">
-                    <td>3º</td>
-                    <td>RuSerNa</td>
-                    <td>1:11:772</td>
-                </tr>
-                <tr class="rb">
-                    <td>4º</td>
-                    <td>Banano</td>
-                    <td>1:11:931</td>
-                </tr>
-                <tr class="fer">
-                    <td>5º</td>
-                    <td>Ramoncin</td>
-                    <td>1:11:947</td>
-                </tr>
-                <tr class="alf">
-                    <td>6º</td>
-                    <td>Jose20</td>
-                    <td>1:12:239</td>
-                </tr>
-                <tr class="fer">
-                    <td>7º</td>
-                    <td>Neskym</td>
-                    <td>1:12:274</td>
-                </tr>
-                <tr class="tau">
-                    <td>8º</td>
-                    <td>Ferrer</td>
-                    <td>1:12:419</td>
-                </tr>
-                <tr class="ast">
-                    <td>9º</td>
-                    <td>Embun</td>
-                    <td>1:12:646</td>
-                </tr>
-                <tr class="mer">
-                    <td>10º</td>
-                    <td>Sxrgix</td>
-                    <td>1:12:797</td>
-                </tr>
-                <tr class="mcl">
-                    <td>11º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:13:216</td>
-                </tr>
-                <tr class="wil">
-                    <td>12º</td>
-                    <td>Xavi</td>
-                    <td>1:13:317</td>
-                </tr>
-                <tr class="rb">
-                    <td>13º</td>
-                    <td>Gerard</td>
-                    <td>1:14:799</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyJapon">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="rb">
-                    <td>1º</td>
-                    <td>Banano</td>
-                    <td>1:38:286</td>
-                </tr>
-                <tr class="fer">
-                    <td>2º</td>
-                    <td>Neskym</td>
-                    <td>1:39:129</td>
-                </tr>
-                <tr class="ast">
-                    <td>3º</td>
-                    <td>Didac</td>
-                    <td>1:39:353</td>
-                </tr>
-                <tr class="mer">
-                    <td>4º</td>
-                    <td>Mamba</td>
-                    <td>1:39:604</td>
-                </tr>
-                <tr class="haas">
-                    <td>5º</td>
-                    <td>Fran</td>
-                    <td>1:39:668</td>
-                </tr>
-                <tr class="alp">
-                    <td>6º</td>
-                    <td>Sxrgix</td>
-                    <td>1:39:687</td>
-                </tr>
-                <tr class="ast">
-                    <td>7º</td>
-                    <td>Embun</td>
-                    <td>1:39:942</td>
-                </tr>
-                <tr class="fer">
-                    <td>8º</td>
-                    <td>Ramoncin</td>
-                    <td>1:40:014</td>
-                </tr>
-                <tr class="alf">
-                    <td>9º</td>
-                    <td>Patera</td>
-                    <td>1:40:028</td>
-                </tr>
-                <tr class="haas">
-                    <td>10º</td>
-                    <td>Pastorete</td>
-                    <td>1:40:357</td>
-                </tr>
-                <tr class="mcl">
-                    <td>11º</td>
-                    <td>RuSerNa</td>
-                    <td>1:40:462</td>
-                </tr>
-                <tr class="tau">
-                    <td>12º</td>
-                    <td>Thargras</td>
-                    <td>1:40:614</td>
-                </tr>
-                <tr class="wil">
-                    <td>13º</td>
-                    <td>Zamorano</td>
-                    <td>1:40:784</td>
-                </tr>
-                <tr class="tau">
-                    <td>14º</td>
-                    <td>Ferrer</td>
-                    <td>1:41:006</td>
-                </tr>
-                <tr class="alf">
-                    <td>15º</td>
-                    <td>Jose20</td>
-                    <td>1:41:087</td>
-                </tr>
-                <tr class="alp">
-                    <td>16º</td>
-                    <td>DaniSojo</td>
-                    <td>1:41:203</td>
-                </tr>
-                <tr class="wil">
-                    <td>17º</td>
-                    <td>Xavi</td>
-                    <td>1:41:365</td>
-                </tr>
-                <tr class="mcl">
-                    <td>18º</td>
-                    <td>Juanbb</td>
-                    <td>1:42:423</td>
-                </tr>
-                <tr class="mer">
-                    <td>19º</td>
-                    <td>Adria</td>
-                    <td>1:42:432</td>
-                </tr>
-                <tr class="rb">
                     <td>20º</td>
-                    <td>AMR_13_</td>
-                    <td>1:42:993</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="qualyChina">
+    <div class="container my-3 text-center" id="fortuna3">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Tiempo</th>
+                    <th>Puntos</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>1:30:768</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>12</td>
                 </tr>
                 <tr class="fer">
-                    <td>2º</td>
-                    <td>Ramoncin</td>
-                    <td>1:31:554</td>
-                </tr>
-                <tr class="rb">
                     <td>3º</td>
-                    <td>Banano</td>
-                    <td>1:31:631</td>
-                </tr>
-                <tr class="mer">
-                    <td>4º</td>
-                    <td>Mamba</td>
-                    <td>1:31:639</td>
-                </tr>
-                <tr class="haas">
-                    <td>5º</td>
-                    <td>Fran</td>
-                    <td>1:31:849</td>
-                </tr>
-                <tr class="alf">
-                    <td>6º</td>
-                    <td>Jose20</td>
-                    <td>1:31:849</td>
-                </tr>
-                <tr class="haas">
-                    <td>7º</td>
-                    <td>Pastorete</td>
-                    <td>1:31:932</td>
-                </tr>
-                <tr class="ast">
-                    <td>8º</td>
-                    <td>Embun</td>
-                    <td>1:32:077</td>
-                </tr>
-                <tr class="wil">
-                    <td>9º</td>
-                    <td>Xavi</td>
-                    <td>1:32:176</td>
+                    <td></td>
+                    <td>10</td>
                 </tr>
                 <tr class="fer">
-                    <td>10º</td>
-                    <td>Neskym</td>
-                    <td>1:32:177</td>
-                </tr>
-                <tr class="ast">
-                    <td>11º</td>
-                    <td>Didac</td>
-                    <td>1:32:077</td>
-                </tr>
-                <tr class="tau">
-                    <td>12º</td>
-                    <td>Ferrer</td>
-                    <td>1:32:362</td>
-                </tr>
-                <tr class="alp">
-                    <td>13º</td>
-                    <td>Sxrgix</td>
-                    <td>1:32:363</td>
-                </tr>
-                <tr class="wil">
-                    <td>14º</td>
-                    <td>Zamorano</td>
-                    <td>1:32:502</td>
-                </tr>
-                <tr class="rb">
-                    <td>15º</td>
-                    <td>MiniSanty</td>
-                    <td>1:32:687</td>
-                </tr>
-                <tr class="tau">
-                    <td>16º</td>
-                    <td>Thargras</td>
-                    <td>1:33:236</td>
-                </tr>
-                <tr class="mcl">
-                    <td>17º</td>
-                    <td>PipeSalazar</td>
-                    <td>1:33:275</td>
-                </tr>
-                <tr class="mer">
-                    <td>18º</td>
-                    <td>Juanbb</td>
-                    <td>1:33:431</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="qualyCanada">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Tiempo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>1:10:289</td>
-                </tr>
-                <tr class="mer">
-                    <td>2º</td>
-                    <td>Mamba</td>
-                    <td>1:10:341</td>
-                </tr>
-                <tr class="wil">
-                    <td>3º</td>
-                    <td>Adri</td>
-                    <td>1:10:342</td>
-                </tr>
-                <tr class="haas">
                     <td>4º</td>
-                    <td>Fran</td>
-                    <td>1:10:362</td>
+                    <td></td>
+                    <td>8</td>
                 </tr>
-                <tr class="rb">
+                <tr class="mer">
                     <td>5º</td>
-                    <td>Banano</td>
-                    <td>1:10:455</td>
+                    <td></td>
+                    <td>6</td>
                 </tr>
                 <tr class="mer">
                     <td>6º</td>
-                    <td>MiniSanty</td>
-                    <td>1:10:604</td>
+                    <td></td>
+                    <td>5</td>
                 </tr>
-                <tr class="ast">
+                <tr class="alp">
                     <td>7º</td>
-                    <td>Embun</td>
-                    <td>1:10:648</td>
+                    <td></td>
+                    <td>4</td>
                 </tr>
-                <tr class="alf">
+                <tr class="alp">
                     <td>8º</td>
-                    <td>Jose20</td>
-                    <td>1:10:787</td>
+                    <td></td>
+                    <td>3</td>
                 </tr>
-                <tr class="alf">
+                <tr class="mcl">
                     <td>9º</td>
-                    <td>Patera</td>
-                    <td>1:10:840</td>
+                    <td></td>
+                    <td>2</td>
                 </tr>
-                <tr class="tau">
+                <tr class="mcl">
                     <td>10º</td>
-                    <td>Thargras</td>
-                    <td>1:10:896</td>
-                </tr>
-                <tr class="fer">
-                    <td>11º</td>
-                    <td>Neskym</td>
-                    <td>1:11:012</td>
-                </tr>
-                <tr class="alp">
-                    <td>12º</td>
-                    <td>DaniSojo</td>
-                    <td>1:11:045</td>
-                </tr>
-                <tr class="alp">
-                    <td>13º</td>
-                    <td>Sxrgix</td>
-                    <td>1:11:046</td>
-                </tr>
-                <tr class="fer">
-                    <td>14º</td>
-                    <td>Ramoncin</td>
-                    <td>1:11:114</td>
-                </tr>
-                <tr class="tau">
-                    <td>15º</td>
-                    <td>Ferrer</td>
-                    <td>1:11:251</td>
-                </tr>
-                <tr class="haas">
-                    <td>16º</td>
-                    <td>Pastorete</td>
-                    <td>1:11:593</td>
+                    <td></td>
+                    <td>1</td>
                 </tr>
                 <tr class="ast">
-                    <td>17º</td>
-                    <td>Juanbb</td>
-                    <td>1:12:646</td>
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="rb">
-                    <td>18º</td>
-                    <td>Gerard</td>
-                    <td>1:13:247</td>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
                     <td>19º</td>
-                    <td>AMR_13_</td>
-                    <td>1:13:512</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="qualyBrasil">
+    <div class="container my-3 text-center" id="fortuna4">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Tiempo</th>
+                    <th>Puntos</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="rb">
                     <td>1º</td>
-                    <td>Banano</td>
-                    <td>1:08:287</td>
+                    <td></td>
+                    <td>15</td>
                 </tr>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>2º</td>
-                    <td>RuSerNa</td>
-                    <td>1:08:328</td>
+                    <td></td>
+                    <td>12</td>
                 </tr>
-                <tr class="haas">
+                <tr class="fer">
                     <td>3º</td>
-                    <td>Fran</td>
-                    <td>1:08:434</td>
+                    <td></td>
+                    <td>10</td>
                 </tr>
-                <tr class="mer">
+                <tr class="fer">
                     <td>4º</td>
-                    <td>Mamba</td>
-                    <td>1:08:473</td>
-                </tr>
-                <tr class="alf">
-                    <td>5º</td>
-                    <td>Patera</td>
-                    <td>1:08:502</td>
-                </tr>
-                <tr class="haas">
-                    <td>6º</td>
-                    <td>Pastorete</td>
-                    <td>1:08:542</td>
+                    <td></td>
+                    <td>8</td>
                 </tr>
                 <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="alp">
                     <td>7º</td>
-                    <td>MiniSanty</td>
-                    <td>1:08:555</td>
+                    <td></td>
+                    <td>4</td>
                 </tr>
                 <tr class="alp">
                     <td>8º</td>
-                    <td>Sxrgix</td>
-                    <td>1:08:560</td>
+                    <td></td>
+                    <td>3</td>
                 </tr>
-                <tr class="alf">
+                <tr class="mcl">
                     <td>9º</td>
-                    <td>Jose20</td>
-                    <td>1:08:606</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
                 </tr>
                 <tr class="ast">
-                    <td>10º</td>
-                    <td>Embun</td>
-                    <td>1:08:660</td>
-                </tr>
-                <tr class="wil">
                     <td>11º</td>
-                    <td>Adri</td>
-                    <td>1:08:662</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="fer">
+                <tr class="ast">
                     <td>12º</td>
-                    <td>Ramoncin</td>
-                    <td>1:08:683</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="alp">
+                <tr class="tau">
                     <td>13º</td>
-                    <td>DaniSojo</td>
-                    <td>1:08:940</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="tau">
                     <td>14º</td>
-                    <td>Ferrer</td>
-                    <td>1:08:997</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="tau">
+                <tr class="alf">
                     <td>15º</td>
-                    <td>Thargras</td>
-                    <td>1:09:004</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="fer">
+                <tr class="alf">
                     <td>16º</td>
-                    <td>Neskym</td>
-                    <td>1:09:135</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="ast">
+                <tr class="wil">
                     <td>17º</td>
-                    <td>Juanbb</td>
-                    <td>1:09:969</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="wil">
                     <td>18º</td>
-                    <td>AMR_13_</td>
-                    <td>1:10:190</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="fortuna5">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>15</td>
                 </tr>
                 <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
                     <td>19º</td>
-                    <td>Nieto</td>
-                    <td>DSC</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="fortuna6">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="container my-3 text-center" id="sprint1">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="sprint2">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="sprint3">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="sprint4">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="sprint5">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="sprint6">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <div class="container my-3 text-center" id="raceAustria">
+    <div class="container my-3 text-center" id="qualy1">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Puntos</th>
+                    <th>Tiempo</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
+                    <td></td>
+                    <td>1:11:111</td>
                 </tr>
                 <tr class="rb">
                     <td>2º</td>
-                    <td>Banano</td>
-                    <td>18</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="mer">
+                <tr class="fer">
                     <td>3º</td>
-                    <td>Mamba</td>
-                    <td>15</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="ast">
+                <tr class="fer">
                     <td>4º</td>
-                    <td>Didac</td>
-                    <td>12</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="mer">
                     <td>5º</td>
-                    <td>Jesús</td>
-                    <td>10</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="wil">
+                <tr class="mer">
                     <td>6º</td>
-                    <td>Neskym</td>
-                    <td>8</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="fer">
+                <tr class="alp">
                     <td>7º</td>
-                    <td>N4VON</td>
-                    <td>6</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="tau">
+                <tr class="alp">
                     <td>8º</td>
-                    <td>Ferrer</td>
-                    <td>4</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="rb">
+                <tr class="mcl">
                     <td>9º</td>
-                    <td>Gerard</td>
-                    <td>2</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="alf">
+                <tr class="mcl">
                     <td>10º</td>
-                    <td>Adria</td>
-                    <td>1</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="ast">
                     <td>11º</td>
-                    <td>Jose20</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="mcl">
+                <tr class="ast">
                     <td>12º</td>
-                    <td>PipeSalazar</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="tau">
                     <td>13º</td>
-                    <td>Thargras</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="alf">
-                    <td>14º</td>
-                    <td>Zamorano</td>
-                    <td class="fastest">DNF</td>
-                </tr>
-                <tr class="alp">
                     <td>15º</td>
-                    <td>Sxrgix</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="haas">
+                <tr class="alf">
                     <td>16º</td>
-                    <td>Fran</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alp">
-                    <td>17º</td>
-                    <td>Doramion</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="haas">
-                    <td>18º</td>
-                    <td>AMR_13_</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="fer">
-                    <td>19º</td>
-                    <td>HectorPerleo1</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
                     <td>20º</td>
-                    <td>Xavi</td>
-                    <td>DSC</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="raceSilverstone">
+    <div class="container my-3 text-center" id="qualy2">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
                     <th>Posición</th>
                     <th>Piloto</th>
-                    <th>Puntos</th>
+                    <th>Tiempo</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
+                    <td></td>
+                    <td>1:11:111</td>
                 </tr>
                 <tr class="rb">
                     <td>2º</td>
-                    <td>Banano</td>
-                    <td>18</td>
-                </tr>
-                <tr class="wil">
-                    <td>3º</td>
-                    <td>Neskym</td>
-                    <td>15</td>
-                </tr>
-                <tr class="tau">
-                    <td>4º</td>
-                    <td>Ferrer</td>
-                    <td>12</td>
-                </tr>
-                <tr class="ast">
-                    <td>5º</td>
-                    <td>Jose20</td>
-                    <td>10</td>
-                </tr>
-                <tr class="tau">
-                    <td>6º</td>
-                    <td>Thargras</td>
-                    <td>8</td>
-                </tr>
-                <tr class="mer">
-                    <td>7º</td>
-                    <td>Mamba</td>
-                    <td>6</td>
-                </tr>
-                <tr class="wil">
-                    <td>8º</td>
-                    <td>Xavi</td>
-                    <td>4</td>
-                </tr>
-                <tr class="mcl">
-                    <td>9º</td>
-                    <td>PipeSalazar</td>
-                    <td>2</td>
-                </tr>
-                <tr class="rb">
-                    <td>10º</td>
-                    <td>Gerard</td>
-                    <td>1</td>
-                </tr>
-                <tr class="mer">
-                    <td>11º</td>
-                    <td>Jesús</td>
-                    <td>0</td>
-                </tr>
-                <tr class="ast">
-                    <td>12º</td>
-                    <td>Didac</td>
-                    <td class="fastest">0</td>
-                </tr>
-                <tr class="alf">
-                    <td>13º</td>
-                    <td>Zamorano</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alf">
-                    <td>14º</td>
-                    <td>Adria</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alp">
-                    <td>15º</td>
-                    <td>Sxrgix</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="haas">
-                    <td>16º</td>
-                    <td>DaniSojo</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="fer">
-                    <td>17º</td>
-                    <td>N4VON</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="haas">
-                    <td>18º</td>
-                    <td>Fran</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceAbu">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
-                </tr>
-                <tr class="mer">
-                    <td>2º</td>
-                    <td>Mamba</td>
-                    <td>18</td>
-                </tr>
-                <tr class="tau">
                     <td>3º</td>
-                    <td>Ferrer</td>
-                    <td>15</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="fer">
                     <td>4º</td>
-                    <td>Neskym</td>
-                    <td>12</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="alp">
-                    <td>5º</td>
-                    <td>Adri</td>
-                    <td>10</td>
-                </tr>
-                <tr class="alf">
-                    <td>6º</td>
-                    <td>Jose20</td>
-                    <td>8</td>
-                </tr>
-                <tr class="wil">
                     <td>7º</td>
-                    <td>Xavi</td>
-                    <td>6</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="haas">
+                <tr class="alp">
                     <td>8º</td>
-                    <td>Fran</td>
-                    <td>4</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="mcl">
                     <td>9º</td>
-                    <td>PipeSalazar</td>
-                    <td>2</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="tau">
+                <tr class="mcl">
                     <td>10º</td>
-                    <td>Thargras</td>
-                    <td>1</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="mer">
+                <tr class="ast">
                     <td>11º</td>
-                    <td>Jesús</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="ast">
                     <td>12º</td>
-                    <td>Sxrgix</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
-                <tr class="rb">
+                <tr class="tau">
                     <td>13º</td>
-                    <td>Banano</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="alf">
-                    <td>14º</td>
-                    <td>Adria</td>
-                    <td>0</td>
-                </tr>
-                <tr class="rb">
                     <td>15º</td>
-                    <td>Gerard</td>
-                    <td>0</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="wil">
-                    <td>16º</td>
-                    <td>DaniSojo</td>
-                    <td class="fastest">0</td>
-                </tr>
-                <tr class="ast">
                     <td>17º</td>
-                    <td>Embun</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="haas">
-                    <td>18º</td>
-                    <td>JavierPineda</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="fer">
                     <td>19º</td>
-                    <td>Ramoncin</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceJeddah">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
-                </tr>
-                <tr class="mer">
-                    <td>2º</td>
-                    <td>Mamba</td>
-                    <td>18</td>
-                </tr>
-                <tr class="mcl">
-                    <td>3º</td>
-                    <td>PipeSalazar</td>
-                    <td>15</td>
-                </tr>
-                <tr class="tau">
-                    <td>4º</td>
-                    <td>Thargras</td>
-                    <td>12</td>
-                </tr>
-                <tr class="alp">
-                    <td>5º</td>
-                    <td>Adri</td>
-                    <td>10</td>
-                </tr>
-                <tr class="ast">
-                    <td>6º</td>
-                    <td>Sxrgix</td>
-                    <td>8</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
                 <tr class="haas">
-                    <td>7º</td>
-                    <td>Fran</td>
-                    <td class="fastest">7</td>
-                </tr>
-                <tr class="wil">
-                    <td>8º</td>
-                    <td>Xavi</td>
-                    <td>4</td>
-                </tr>
-                <tr class="fer">
-                    <td>9º</td>
-                    <td>Neskym</td>
-                    <td>2</td>
-                </tr>
-                <tr class="alp">
-                    <td>10º</td>
-                    <td>DaniSojo</td>
-                    <td>1</td>
-                </tr>
-                <tr class="ast">
-                    <td>11º</td>
-                    <td>Embun</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="rb">
-                    <td>12º</td>
-                    <td>Gerard</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="fer">
-                    <td>13º</td>
-                    <td>Ramoncin</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alf">
-                    <td>14º</td>
-                    <td>Jose20</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="wil">
-                    <td>15º</td>
-                    <td>Zamorano</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alf">
-                    <td>16º</td>
-                    <td>Adria</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="mer">
-                    <td>17º</td>
-                    <td>Jesús</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="tau">
-                    <td>18º</td>
-                    <td>Ferrer</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceMexico">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
-                </tr>
-                <tr class="tau">
-                    <td>2º</td>
-                    <td>Ferrer</td>
-                    <td>18</td>
-                </tr>
-                <tr class="ast">
-                    <td>3º</td>
-                    <td>Didac</td>
-                    <td>15</td>
-                </tr>
-                <tr class="mer">
-                    <td>4º</td>
-                    <td>Mamba</td>
-                    <td>12</td>
-                </tr>
-                <tr class="ast">
-                    <td>5º</td>
-                    <td>Embun</td>
-                    <td>10</td>
-                </tr>
-                <tr class="fer">
-                    <td>6º</td>
-                    <td>Neskym</td>
-                    <td>8</td>
-                </tr>
-                <tr class="mer">
-                    <td>7º</td>
-                    <td>Jesús</td>
-                    <td>6</td>
-                </tr>
-                <tr class="haas">
-                    <td>8º</td>
-                    <td>Fran</td>
-                    <td>4</td>
-                </tr>
-                <tr class="mcl">
-                    <td>9º</td>
-                    <td>DavidRomero</td>
-                    <td>2</td>
-                </tr>
-                <tr class="alf">
-                    <td>10º</td>
-                    <td>Adria</td>
-                    <td>1</td>
-                </tr>
-                <tr class="fer">
-                    <td>11º</td>
-                    <td>NicoAlvarez</td>
-                    <td>0</td>
-                </tr>
-                <tr class="rb">
-                    <td>12º</td>
-                    <td>Gerard</td>
-                    <td>0</td>
-                </tr>
-                <tr class="wil">
-                    <td>13º</td>
-                    <td>Xavi</td>
-                    <td class="fastest">0</td>
-                </tr>
-                <tr class="rb">
-                    <td>14º</td>
-                    <td>Ramoncin</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="wil">
-                    <td>15º</td>
-                    <td>Zamorano</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alp">
-                    <td>16º</td>
-                    <td>DaniSojo</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="tau">
-                    <td>17º</td>
-                    <td>Thargras</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alp">
-                    <td>18º</td>
-                    <td>NicoM</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceMiami">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
-                </tr>
-                <tr class="mer">
-                    <td>2º</td>
-                    <td>Mamba</td>
-                    <td>18</td>
-                </tr>
-                <tr class="fer">
-                    <td>3º</td>
-                    <td>Neskym</td>
-                    <td>15</td>
-                </tr>
-                <tr class="haas">
-                    <td>4º</td>
-                    <td>Fran</td>
-                    <td>12</td>
-                </tr>
-                <tr class="tau">
-                    <td>5º</td>
-                    <td>Ferrer</td>
-                    <td>10</td>
-                </tr>
-                <tr class="mcl">
-                    <td>6º</td>
-                    <td>DavidRomero</td>
-                    <td>8</td>
-                </tr>
-                <tr class="wil">
-                    <td>7º</td>
-                    <td>Zamorano</td>
-                    <td class="fastest">7</td>
-                </tr>
-                <tr class="wil">
-                    <td>8º</td>
-                    <td>Xavi</td>
-                    <td>4</td>
-                </tr>
-                <tr class="mer">
-                    <td>9º</td>
-                    <td>Jesús</td>
-                    <td>2</td>
-                </tr>
-                <tr class="rb">
-                    <td>10º</td>
-                    <td>AMR_13_</td>
-                    <td>1</td>
-                </tr>
-                <tr class="ast">
-                    <td>11º</td>
-                    <td>Embun</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="ast">
-                    <td>12º</td>
-                    <td>Didac</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="tau">
-                    <td>13º</td>
-                    <td>Thargras</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="rb">
-                    <td>14º</td>
-                    <td>Gerard</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="racePaisesbajos">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td class="fastest">26</td>
-                </tr>
-                <tr class="haas">
-                    <td>2º</td>
-                    <td>Fran</td>
-                    <td>18</td>
-                </tr>
-                <tr class="fer">
-                    <td>3º</td>
-                    <td>Ramoncin</td>
-                    <td>15</td>
-                </tr>
-                <tr class="rb">
-                    <td>4º</td>
-                    <td>Banano</td>
-                    <td>12</td>
-                </tr>
-                <tr class="tau">
-                    <td>5º</td>
-                    <td>Ferrer</td>
-                    <td>10</td>
-                </tr>
-                <tr class="alf">
-                    <td>6º</td>
-                    <td>Patera</td>
-                    <td>8</td>
-                </tr>
-                <tr class="fer">
-                    <td>7º</td>
-                    <td>Neskym</td>
-                    <td>6</td>
-                </tr>
-                <tr class="haas">
-                    <td>8º</td>
-                    <td>Pastorete</td>
-                    <td>4</td>
-                </tr>
-                <tr class="mcl">
-                    <td>9º</td>
-                    <td>PipeSalazar</td>
-                    <td>2</td>
-                </tr>
-                <tr class="ast">
-                    <td>10º</td>
-                    <td>Embun</td>
-                    <td>1</td>
-                </tr>
-                <tr class="alf">
-                    <td>11º</td>
-                    <td>Jose20</td>
-                    <td>0</td>
-                </tr>
-                <tr class="mer">
-                    <td>12º</td>
-                    <td>Sxrgix</td>
-                    <td>0</td>
-                </tr>
-                <tr class="wil">
-                    <td>13º</td>
-                    <td>Xavi</td>
-                    <td>0</td>
-                </tr>
-                <tr class="tau">
-                    <td>14º</td>
-                    <td>Adria</td>
-                    <td>0</td>
-                </tr>
-                <tr class="rb">
-                    <td>15º</td>
-                    <td>Gerard</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceEspana">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="mcl">
-                    <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td>25</td>
-                </tr>
-                <tr class="rb">
-                    <td>2º</td>
-                    <td>Banano</td>
-                    <td>18</td>
-                </tr>
-                <tr class="haas">
-                    <td>3º</td>
-                    <td>Fran</td>
-                    <td>15</td>
-                </tr>
-                <tr class="tau">
-                    <td>4º</td>
-                    <td>Ferrer</td>
-                    <td>12</td>
-                </tr>
-                <tr class="fer">
-                    <td>5º</td>
-                    <td>Neskym</td>
-                    <td>10</td>
-                </tr>
-                <tr class="mer">
-                    <td>6º</td>
-                    <td>Sxrgix</td>
-                    <td>8</td>
-                </tr>
-                <tr class="wil">
-                    <td>7º</td>
-                    <td>Xavi</td>
-                    <td>6</td>
-                </tr>
-                <tr class="ast">
-                    <td>8º</td>
-                    <td>Embun</td>
-                    <td class="fastest">5</td>
-                </tr>
-                <tr class="mcl">
-                    <td>9º</td>
-                    <td>PipeSalazar</td>
-                    <td>2</td>
-                </tr>
-                <tr class="alf">
-                    <td>10º</td>
-                    <td>Jose20</td>
-                    <td>1</td>
-                </tr>
-                <tr class="haas">
-                    <td>11º</td>
-                    <td>Pastorete</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="fer">
-                    <td>12º</td>
-                    <td>Ramoncin</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="rb">
-                    <td>13º</td>
-                    <td>Gerard</td>
-                    <td>DNF</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceJapon">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="rb">
-                    <td>1º</td>
-                    <td>Banano</td>
-                    <td>25</td>
-                </tr>
-                <tr class="fer">
-                    <td>2º</td>
-                    <td>Neskym</td>
-                    <td>18</td>
-                </tr>
-                <tr class="mcl">
-                    <td>3º</td>
-                    <td>RuSerNa</td>
-                    <td>15</td>
-                </tr>
-                <tr class="wil">
-                    <td>4º</td>
-                    <td>Zamorano</td>
-                    <td>12</td>
-                </tr>
-                <tr class="haas">
-                    <td>5º</td>
-                    <td>Pastorete</td>
-                    <td>10</td>
-                </tr>
-                <tr class="alf">
-                    <td>6º</td>
-                    <td>Jose20</td>
-                    <td>8</td>
-                </tr>
-                <tr class="tau">
-                    <td>7º</td>
-                    <td>Ferrer</td>
-                    <td>6</td>
-                </tr>
-                <tr class="alp">
-                    <td>8º</td>
-                    <td>DaniSojo</td>
-                    <td>4</td>
-                </tr>
-                <tr class="wil">
-                    <td>9º</td>
-                    <td>Xavi</td>
-                    <td>2</td>
-                </tr>
-                <tr class="ast">
-                    <td>10º</td>
-                    <td>Embun</td>
-                    <td>1</td>
-                </tr>
-                <tr class="mcl">
-                    <td>11º</td>
-                    <td>Juanbb</td>
-                    <td>0</td>
-                </tr>
-                <tr class="tau">
-                    <td>12º</td>
-                    <td>Thargras</td>
-                    <td>0</td>
-                </tr>
-                <tr class="haas">
-                    <td>13º</td>
-                    <td>Fran</td>
-                    <td class="fastest">0</td>
-                </tr>
-                <tr class="alp">
-                    <td>14º</td>
-                    <td>Sxrgix</td>
-                    <td>0</td>
-                </tr>
-                <tr class="fer">
-                    <td>15º</td>
-                    <td>Ramoncin</td>
-                    <td>0</td>
-                </tr>
-                <tr class="mer">
-                    <td>16º</td>
-                    <td>Adria</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="ast">
-                    <td>17º</td>
-                    <td>Didac</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="mer">
-                    <td>18º</td>
-                    <td>Mamba</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alf">
-                    <td>19º</td>
-                    <td>Patera</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="rb">
                     <td>20º</td>
-                    <td>AMR_13_</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="raceChina">
+    <div class="container my-3 text-center" id="qualy3">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>1:11:111</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="qualy4">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>1:11:111</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="qualy5">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>1:11:111</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="qualy6">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>1:11:111</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>+ 0.000s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container my-3 text-center" id="carrera1">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
@@ -2190,191 +2133,109 @@
             <tbody>
                 <tr class="rb">
                     <td>1º</td>
-                    <td>Banano</td>
+                    <td></td>
                     <td>25</td>
                 </tr>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>2º</td>
-                    <td>RuSerNa</td>
+                    <td></td>
                     <td>18</td>
                 </tr>
-                <tr class="tau">
+                <tr class="fer">
                     <td>3º</td>
-                    <td>Thargras</td>
+                    <td></td>
                     <td>15</td>
                 </tr>
-                <tr class="alp">
+                <tr class="fer">
                     <td>4º</td>
-                    <td>Sxrgix</td>
+                    <td></td>
                     <td>12</td>
                 </tr>
-                <tr class="fer">
+                <tr class="mer">
                     <td>5º</td>
-                    <td>Ramoncin</td>
+                    <td></td>
                     <td>10</td>
                 </tr>
                 <tr class="mer">
                     <td>6º</td>
-                    <td>Mamba</td>
-                    <td class="fastest">9</td>
-                </tr>
-                <tr class="tau">
-                    <td>7º</td>
-                    <td>Ferrer</td>
-                    <td>6</td>
-                </tr>
-                <tr class="fer">
-                    <td>8º</td>
-                    <td>Neskym</td>
-                    <td>4</td>
-                </tr>
-                <tr class="alf">
-                    <td>9º</td>
-                    <td>Jose20</td>
-                    <td>2</td>
-                </tr>
-                <tr class="rb">
-                    <td>10º</td>
-                    <td>MiniSanty</td>
-                    <td>1</td>
-                </tr>
-                <tr class="ast">
-                    <td>11º</td>
-                    <td>Embun</td>
-                    <td>0</td>
-                </tr>
-                <tr class="wil">
-                    <td>12º</td>
-                    <td>Xavi</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="mcl">
-                    <td>13º</td>
-                    <td>PipeSalazar</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="wil">
-                    <td>14º</td>
-                    <td>Zamorano</td>
-                    <td>DSC</td>
-                </tr>
-                <tr class="haas">
-                    <td>15º</td>
-                    <td>Fran</td>
-                    <td>DSC</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container my-3 text-center" id="raceCanada">
-        <table>
-            <thead>
-                <tr class="titulo3">
-                    <th>Posición</th>
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="rb">
-                    <td>1º</td>
-                    <td>Banano</td>
-                    <td class="fastest">26</td>
-                </tr>
-                <tr class="haas">
-                    <td>2º</td>
-                    <td>Fran</td>
-                    <td>18</td>
-                </tr>
-                <tr class="alf">
-                    <td>3º</td>
-                    <td>Patera</td>
-                    <td>15</td>
-                </tr>
-                <tr class="haas">
-                    <td>4º</td>
-                    <td>Pastorete</td>
-                    <td>12</td>
-                </tr>
-                <tr class="alp">
-                    <td>5º</td>
-                    <td>DaniSojo</td>
-                    <td>10</td>
-                </tr>
-                <tr class="fer">
-                    <td>6º</td>
-                    <td>Ramoncin</td>
+                    <td></td>
                     <td>8</td>
                 </tr>
-                <tr class="alf">
+                <tr class="alp">
                     <td>7º</td>
-                    <td>Jose20</td>
+                    <td></td>
                     <td>6</td>
                 </tr>
                 <tr class="alp">
                     <td>8º</td>
-                    <td>Sxrgix</td>
+                    <td></td>
                     <td>4</td>
                 </tr>
-                <tr class="tau">
+                <tr class="mcl">
                     <td>9º</td>
-                    <td>Ferrer</td>
+                    <td></td>
                     <td>2</td>
                 </tr>
-                <tr class="rb">
+                <tr class="mcl">
                     <td>10º</td>
-                    <td>Gerard</td>
+                    <td></td>
                     <td>1</td>
                 </tr>
-                <tr class="wil">
+                <tr class="ast">
                     <td>11º</td>
-                    <td>AMR_13_</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
                     <td>0</td>
                 </tr>
                 <tr class="tau">
-                    <td>12º</td>
-                    <td>Thargras</td>
+                    <td>13º</td>
+                    <td></td>
                     <td>0</td>
                 </tr>
-                <tr class="fer">
-                    <td>13º</td>
-                    <td>Neskym</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="mcl">
+                <tr class="tau">
                     <td>14º</td>
-                    <td>RuSerNa</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="ast">
+                <tr class="alf">
                     <td>15º</td>
-                    <td>Juanbb</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="wil">
-                    <td>16º</td>
-                    <td>Adri</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="mer">
                     <td>17º</td>
-                    <td>MiniSanty</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="mer">
+                <tr class="wil">
                     <td>18º</td>
-                    <td>Mamba</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="ast">
+                <tr class="haas">
                     <td>19º</td>
-                    <td>Embun</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <div class="container my-3 text-center" id="raceBrasil">
+    <div class="container my-3 text-center" id="carrera2">
+        <div class="titulo2 py-3">Desconocido</div>
         <table>
             <thead>
                 <tr class="titulo3">
@@ -2384,95 +2245,561 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="mcl">
+                <tr class="rb">
                     <td>1º</td>
-                    <td>RuSerNa</td>
-                    <td class="fastest">26</td>
+                    <td></td>
+                    <td>25</td>
                 </tr>
                 <tr class="rb">
                     <td>2º</td>
-                    <td>Banano</td>
+                    <td></td>
                     <td>18</td>
                 </tr>
                 <tr class="fer">
                     <td>3º</td>
-                    <td>Neskym</td>
+                    <td></td>
                     <td>15</td>
                 </tr>
-                <tr class="mer">
+                <tr class="fer">
                     <td>4º</td>
-                    <td>Mamba</td>
+                    <td></td>
                     <td>12</td>
                 </tr>
-                <tr class="haas">
+                <tr class="mer">
                     <td>5º</td>
-                    <td>Fran</td>
+                    <td></td>
                     <td>10</td>
                 </tr>
                 <tr class="mer">
                     <td>6º</td>
-                    <td>MiniSanty</td>
+                    <td></td>
                     <td>8</td>
                 </tr>
-                <tr class="tau">
+                <tr class="alp">
                     <td>7º</td>
-                    <td>Ferrer</td>
+                    <td></td>
                     <td>6</td>
                 </tr>
-                <tr class="alf">
+                <tr class="alp">
                     <td>8º</td>
-                    <td>Jose20</td>
+                    <td></td>
                     <td>4</td>
                 </tr>
-                <tr class="ast">
+                <tr class="mcl">
                     <td>9º</td>
-                    <td>Embun</td>
+                    <td></td>
                     <td>2</td>
                 </tr>
-                <tr class="tau">
+                <tr class="mcl">
                     <td>10º</td>
-                    <td>Thargras</td>
+                    <td></td>
                     <td>1</td>
                 </tr>
-                <tr class="wil">
+                <tr class="ast">
                     <td>11º</td>
-                    <td>Adri</td>
-                    <td>0</td>
-                </tr>
-                <tr class="haas">
-                    <td>12º</td>
-                    <td>Pastorete</td>
+                    <td></td>
                     <td>0</td>
                 </tr>
                 <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
                     <td>13º</td>
-                    <td>Juanbb</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="alf">
-                    <td>14º</td>
-                    <td>Patera</td>
-                    <td>DNF</td>
-                </tr>
-                <tr class="alp">
                     <td>15º</td>
-                    <td>Sxrgix</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
-                <tr class="fer">
+                <tr class="alf">
                     <td>16º</td>
-                    <td>Ramoncin</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
                 <tr class="wil">
                     <td>17º</td>
-                    <td>AMR_13_</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="carrera3">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>25</td>
                 </tr>
                 <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>18</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
                     <td>18º</td>
-                    <td>Nieto</td>
-                    <td>DNF</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="carrera4">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>25</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>18</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="carrera5">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>25</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>18</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container my-3 text-center" id="carrera6">
+        <div class="titulo2 py-3">Desconocido</div>
+        <table>
+            <thead>
+                <tr class="titulo3">
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rb">
+                    <td>1º</td>
+                    <td></td>
+                    <td>25</td>
+                </tr>
+                <tr class="rb">
+                    <td>2º</td>
+                    <td></td>
+                    <td>18</td>
+                </tr>
+                <tr class="fer">
+                    <td>3º</td>
+                    <td></td>
+                    <td>15</td>
+                </tr>
+                <tr class="fer">
+                    <td>4º</td>
+                    <td></td>
+                    <td>12</td>
+                </tr>
+                <tr class="mer">
+                    <td>5º</td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+                <tr class="mer">
+                    <td>6º</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr class="alp">
+                    <td>7º</td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr class="alp">
+                    <td>8º</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr class="mcl">
+                    <td>9º</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr class="mcl">
+                    <td>10º</td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="ast">
+                    <td>11º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="ast">
+                    <td>12º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>13º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="tau">
+                    <td>14º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>15º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="alf">
+                    <td>16º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>17º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="wil">
+                    <td>18º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>19º</td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+                <tr class="haas">
+                    <td>20º</td>
+                    <td></td>
+                    <td>0</td>
                 </tr>
             </tbody>
         </table>
@@ -2491,104 +2818,74 @@
         crossorigin="anonymous"></script>
     <script>
         function mostrarTabla() {
-            var circuito = document.getElementById("circuitoSelect").value;
+            var dia = document.getElementById("diaSelect").value;
             var sesion = document.getElementById("sesionSelect").value;
 
             // Oculta todas las tablas
-            document.getElementById("qualyAustria").style.display = "none";
-            document.getElementById("qualySilverstone").style.display = "none";
-            document.getElementById("qualyAbu").style.display = "none";
-            document.getElementById("qualyJeddah").style.display = "none";
-            document.getElementById("qualyMexico").style.display = "none";
-            document.getElementById("qualyMiami").style.display = "none";
-            document.getElementById("qualyPaisesbajos").style.display = "none";
-            document.getElementById("qualyEspana").style.display = "none";
-            document.getElementById("qualyJapon").style.display = "none";
-            document.getElementById("qualyChina").style.display = "none";
-            document.getElementById("qualyCanada").style.display = "none";
-            document.getElementById("qualyBrasil").style.display = "none";
+            document.getElementById("fortuna1").style.display = "none";
+            document.getElementById("fortuna2").style.display = "none";
+            document.getElementById("fortuna3").style.display = "none";
+            document.getElementById("fortuna4").style.display = "none";
+            document.getElementById("fortuna5").style.display = "none";
+            document.getElementById("fortuna6").style.display = "none";
 
-            document.getElementById("raceAustria").style.display = "none";
-            document.getElementById("raceSilverstone").style.display = "none";
-            document.getElementById("raceAbu").style.display = "none";
-            document.getElementById("raceJeddah").style.display = "none";
-            document.getElementById("raceMexico").style.display = "none";
-            document.getElementById("raceMiami").style.display = "none";
-            document.getElementById("racePaisesbajos").style.display = "none";
-            document.getElementById("raceEspana").style.display = "none";
-            document.getElementById("raceJapon").style.display = "none";
-            document.getElementById("raceChina").style.display = "none";
-            document.getElementById("raceCanada").style.display = "none";
-            document.getElementById("raceBrasil").style.display = "none";
+            document.getElementById("sprint1").style.display = "none";
+            document.getElementById("sprint2").style.display = "none";
+            document.getElementById("sprint3").style.display = "none";
+            document.getElementById("sprint4").style.display = "none";
+            document.getElementById("sprint5").style.display = "none";
+            document.getElementById("sprint6").style.display = "none";
+
+            document.getElementById("qualy1").style.display = "none";
+            document.getElementById("qualy2").style.display = "none";
+            document.getElementById("qualy3").style.display = "none";
+            document.getElementById("qualy4").style.display = "none";
+            document.getElementById("qualy5").style.display = "none";
+            document.getElementById("qualy6").style.display = "none";
+
+            document.getElementById("carrera1").style.display = "none";
+            document.getElementById("carrera2").style.display = "none";
+            document.getElementById("carrera3").style.display = "none";
+            document.getElementById("carrera4").style.display = "none";
+            document.getElementById("carrera5").style.display = "none";
+            document.getElementById("carrera6").style.display = "none";
 
             // Muestra la tabla correspondiente según la selección
-            if (circuito === "austria" && sesion === "qualy") {
-                document.getElementById("qualyAustria").style.display = "table";
-            } else if (circuito === "austria" && sesion === "race") {
-                document.getElementById("raceAustria").style.display = "table";
+            if (dia === "finde1" && sesion === "fortuna") {
+                document.getElementById("fortuna1").style.display = "table";
+            } else if (dia === "finde1" && sesion === "sprint") {
+                document.getElementById("sprint1").style.display = "table";
+            } else if (dia === "finde1" && sesion === "qualy") {
+                document.getElementById("qualy1").style.display = "table";
+            } else if (dia === "finde1" && sesion === "carrera") {
+                document.getElementById("carrera1").style.display = "table";
+            
+            } else if (dia === "finde2" && sesion === "sprint") {
+                document.getElementById("sprint2").style.display = "table";
+            } else if (dia === "finde2" && sesion === "qualy") {
+                document.getElementById("qualy2").style.display = "table";
+            } else if (dia === "finde2" && sesion === "carrera") {
+                document.getElementById("carrera2").style.display = "table";
+            } else if (dia === "finde2" && sesion === "sprint") {
+                document.getElementById("sprint2").style.display = "table";
+            
+            } else if (dia === "finde3" && sesion === "sprint") {
+                document.getElementById("sprint3").style.display = "table";
+            } else if (dia === "finde3" && sesion === "qualy") {
+                document.getElementById("qualy3").style.display = "table";
+            } else if (dia === "finde3" && sesion === "carrera") {
+                document.getElementById("carrera3").style.display = "table";
+            } else if (dia === "finde3" && sesion === "sprint") {
+                document.getElementById("sprint3").style.display = "table";
 
-            } else if (circuito === "silverstone" && sesion === "qualy") {
-                document.getElementById("qualySilverstone").style.display = "table";
-            } else if (circuito === "silverstone" && sesion === "race") {
-                document.getElementById("raceSilverstone").style.display = "table";
-
-            } else if (circuito === "abudhabi" && sesion === "qualy") {
-                document.getElementById("qualyAbu").style.display = "table";
-            } else if (circuito === "abudhabi" && sesion === "race") {
-                document.getElementById("raceAbu").style.display = "table";
-                
-            } else if (circuito === "jeddah" && sesion === "qualy") {
-                document.getElementById("qualyJeddah").style.display = "table";
-            } else if (circuito === "jeddah" && sesion === "race") {
-                document.getElementById("raceJeddah").style.display = "table";
-            }
-            
-            else if (circuito === "mexico" && sesion === "qualy") {
-                document.getElementById("qualyMexico").style.display = "table";
-            } else if (circuito === "mexico" && sesion === "race") {
-                document.getElementById("raceMexico").style.display = "table";
-            }
-            
-            else if (circuito === "miami" && sesion === "qualy") {
-                document.getElementById("qualyMiami").style.display = "table";
-            } else if (circuito === "miami" && sesion === "race") {
-                document.getElementById("raceMiami").style.display = "table";
-            }
-            
-            else if (circuito === "paisesbajos" && sesion === "qualy") {
-                document.getElementById("qualyPaisesbajos").style.display = "table";
-            } else if (circuito === "paisesbajos" && sesion === "race") {
-                document.getElementById("racePaisesbajos").style.display = "table";
-            }
-            
-            else if (circuito === "espana" && sesion === "qualy") {
-                document.getElementById("qualyEspana").style.display = "table";
-            } else if (circuito === "espana" && sesion === "race") {
-                document.getElementById("raceEspana").style.display = "table";
-            }
-            
-            else if (circuito === "japon" && sesion === "qualy") {
-                document.getElementById("qualyJapon").style.display = "table";
-            } else if (circuito === "japon" && sesion === "race") {
-                document.getElementById("raceJapon").style.display = "table";
-            }
-            
-            else if (circuito === "china" && sesion === "qualy") {
-                document.getElementById("qualyChina").style.display = "table";
-            } else if (circuito === "china" && sesion === "race") {
-                document.getElementById("raceChina").style.display = "table";
-            }
-            
-            else if (circuito === "canada" && sesion === "qualy") {
-                document.getElementById("qualyCanada").style.display = "table";
-            } else if (circuito === "canada" && sesion === "race") {
-                document.getElementById("raceCanada").style.display = "table";
-            }
-            
-            else if (circuito === "brasil" && sesion === "qualy") {
-                document.getElementById("qualyBrasil").style.display = "table";
-            } else if (circuito === "brasil" && sesion === "race") {
-                document.getElementById("raceBrasil").style.display = "table";
+            } else if (dia === "finde4" && sesion === "sprint") {
+                document.getElementById("sprint4").style.display = "table";
+            } else if (dia === "finde4" && sesion === "qualy") {
+                document.getElementById("qualy4").style.display = "table";
+            } else if (dia === "finde4" && sesion === "carrera") {
+                document.getElementById("carrera4").style.display = "table";
+            } else if (dia === "finde4" && sesion === "sprint") {
+                document.getElementById("sprint4").style.display = "table";
             }
         }
 
