@@ -195,3 +195,10 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #FF6666;
 }
+
+@media (max-width: 1199px) {
+    ul{
+        padding-left: 0 !important;
+        list-style: none;
+    }
+}
