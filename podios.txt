@@ -11,6 +11,10 @@ Arabia
         - PipeSalazar
 
 Australia
+    Gas Cup 3:
+            - Ruben
+            - Banano
+            - Ferrer
 
 Azerbaiyan
     Gas Cup 1:
@@ -63,6 +67,10 @@ Gran Bretaña
         - Ruben
         - Banano
         - Neskym
+    Gas Cup 3:
+        - Alfons
+        - Ruben
+        - Mamba
 
 Hungria
 
@@ -77,6 +85,10 @@ Paises Bajos
         - Ruben
         - Fran
         - Ramoncin
+    Gas Cup 3:
+        - Banano
+        - Ruben
+        - Alpinan
 
 Italia
 
@@ -117,6 +129,10 @@ Brasil
         - Neskym
 
 Las Vegas
+    Gas Cup 3:
+        - Alfons
+        - Banano
+        - Ruben
 
 Abu Dabi
     Gas Cup 2:
@@ -137,3 +153,7 @@ Portugal
         - Josemom
         - Fran
         - Ruben
+    Gas Cup 3:
+        - Ruben
+        - Mamba
+        - Banano

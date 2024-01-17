@@ -26,7 +26,7 @@ body {
 .titulo {
     font-family: f1torque, sans-serif;
     font-size: 9em !important;
-    -webkit-text-stroke: 2px red;
+    -webkit-text-stroke: 2px green;
 }
 
 .background {
@@ -65,8 +65,8 @@ body {
 .custom-button {
     padding: 10px 20px;
     font-family: f1regular, sans-serif;
-    background-color: red;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,7 +76,7 @@ body {
 }
 
 .custom-button:hover {
-    background-color: black;
+    background-color: green;
 }
 
 .circuito {
@@ -86,14 +86,14 @@ body {
 .trazado {
     font-family: f1torque, sans-serif;
     font-size: 3em;
-    color: red;
+    color: green;
     -webkit-text-stroke: 2px white;
 }
 
 .linea {
     width: 60%;
     height: 2px;
-    background-color: white;
+    background-color: greenyellow;
     margin: 10px auto;
 }
 
@@ -117,8 +117,8 @@ body {
 .custom-button-volver {
     padding: 10px 20px;
     font-family: f1regular, sans-serif;
-    background-color: red;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -128,5 +128,9 @@ body {
 }
 
 .custom-button-volver:hover {
-    background-color: black;
+    background-color: green;
+}
+
+.border-white {
+    border-color: greenyellow !important;
 }

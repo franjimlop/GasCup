@@ -26,7 +26,7 @@ body {
 .titulo {
     font-family: f1torque, sans-serif;
     font-size: 9em !important;
-    -webkit-text-stroke: 2px red;
+    -webkit-text-stroke: 2px green;
 }
 
 .background {
@@ -44,7 +44,7 @@ body {
 @media (min-width: 1200px) {
     /* Imagen para pantallas grandes (mayor o igual a 1200px) */
     .background {
-        background-image: url(images/fondo-grande-5.jpg);
+        background-image: url(images/fondo-grande-alternativo3.jpg);
     }
 }
 
@@ -65,8 +65,8 @@ body {
 .custom-button {
     padding: 10px 20px;
     font-family: f1regular, sans-serif;
-    background-color: red;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,13 +76,13 @@ body {
 }
 
 .custom-button:hover {
-    background-color: black;
+    background-color: green;
 }
 
 .titulo2 {
     font-family: f1torque, sans-serif;
     font-size: 2.5em;
-    color: red;
+    color: green;
     -webkit-text-stroke: 1px white;
 }
 
@@ -94,8 +94,8 @@ a {
 .custom-button-volver {
     padding: 10px 20px;
     font-family: f1regular, sans-serif;
-    background-color: red;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -105,30 +105,30 @@ a {
 }
 
 .custom-button-volver:hover {
-    background-color: black;
+    background-color: green;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
-    background-color: #FF0000;
-    color: white;
-    border: 1px solid white;
+    background-color: rgb(100, 200, 0);
+    color: black;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
 th,
 td {
-    border: 1px solid white;
+    border: 1px solid black;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #FF3333;
+    background-color: greenyellow;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #FF6666;
+    background-color: rgb(100, 200, 0);
 }
